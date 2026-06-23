@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.11.9 on win32)" generated="2026-06-22T11:15:07.548484" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="C:\Users\Welcome\Downloads\pc_ automation\testsuites\Login_Test.robot">
+<test id="s1-t1" name="Install Software ON IOSXR" line="10">
+<kw name="Login pc Application" owner="CommonKeywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Logging into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-22T11:15:09.118031" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-06-22T11:15:09.116026" elapsed="0.002005"/>
+</kw>
+<kw name="Install IOSXR Image" owner="CommonKeywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Installing IOSXR image</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-22T11:15:09.118965" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-06-22T11:15:09.118965" elapsed="0.000000"/>
+</kw>
+<kw name="Close pc Application" owner="CommonKeywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>closing applications</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-22T11:15:09.119963" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-06-22T11:15:09.118965" elapsed="0.000998"/>
+</kw>
+<status status="PASS" start="2026-06-22T11:15:09.114998" elapsed="0.004965"/>
+</test>
+<status status="PASS" start="2026-06-22T11:15:07.549484" elapsed="1.571477"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Test" id="s1" pass="1" fail="0" skip="0">Login Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
